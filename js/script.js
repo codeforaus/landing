@@ -7,4 +7,11 @@ $(window).bind("load", function() {
 			$(this).popover("hide");
 		}
 	);
+
+	$('.program-pill').hover(function() { $(this).popover('show'); }, function() { $(this).popover('hide'); } );
+
+	$('.icon-social').hover(
+		function() { $(this).css("width", "155px"); },
+		function() { $(this).css("width", "150px"); }
+		);
 });

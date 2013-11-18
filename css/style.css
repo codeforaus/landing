@@ -87,10 +87,6 @@ svg#bigTriangleColor {
 }
 
 .getinvolved-background {
-	background-image: url('/img/tree.png');
-	background-repeat: no-repeat;
-	background-position: center;
-	background-size: 50%;
 	height: 800px;
 	padding-top: 40px;
 
@@ -121,8 +117,21 @@ svg#bigTriangleColor {
 	color: rgb(190, 190, 190);
 }
 
+.involved-row {
+	padding-top: 150px;
+}
+
+.involved h2 {
+	font-size: 21px;
+	color: white;
+}
+
+.involved p {
+	color: white;
+}
+
 .programs {
-	padding-top: 100px;
+	padding: 100px 0 100px 0;
 }
 
 .programs-background {
@@ -138,11 +147,29 @@ svg#bigTriangleColor {
 	border-radius: 20px;
 	display: inline-block;
 	border: 5px solid white;
+	color: white;
 	padding: 10px 30px 10px 30px;
 }
 
-.programs-header, .programs-intro, .programs-detail {
+.programs-header, .programs-detail {
 	padding-top: 70px;
+}
+
+.programs-intro {
+	padding-top: 50px;
+}
+
+.programs-container {
+	margin-top: 130px;
+}
+
+.programs-container div a {
+	font-size: 20px;
+	display: inline;
+	background-color: white;
+	padding: 10px 50px 10px 50px;
+	border-radius: 5px;
+	color: black;
 }
 
 .programs-heading, .getinvolved-heading {
